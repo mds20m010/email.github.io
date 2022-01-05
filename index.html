@@ -1,0 +1,168 @@
+<!--index.html-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Email UI</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+        
+<!--        Google Font Icons-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+        <link rel="stylesheet" href="styling.css">
+    </head>
+    <body>
+<!--        Header Starts-->
+        <div class="header">
+            <div class="header_left">
+                <span class="material-icons">menu</span>
+            </div>
+            <div class="header_middle">
+                    <div id="serachbox">
+                        <form method="get">
+                            <input type="text" class="text" value="Search for something...">
+                        </form>
+                    </div>
+            </div>
+            <div class="header_right">
+                <span class="material-icons">email</span>
+                <span class="material-icons">notifications</span>
+                <span class="material-icons">logout</span>
+                <a id="logout"> Log out</a>
+            </div>
+        </div>
+<!--        Header Ends-->
+<!--        Main body starts-->
+        <div class="mainbody">
+<!--            Sidebar starts-->
+            <div class="sidebar">
+                <button class="button">Compose Mail</button>
+<!--                Folder starts here-->
+                <div class="folder">
+                    <h3>FOLDERS</h3>
+                    <div class="folderOption sidebarOption_active">
+                        <span class="material-icons">inbox</span>
+                        <h3> Inbox</h3>
+                    </div>
+                    <div class="folderOption">
+                        <span class="material-icons"> mail_outline </span>
+                        <h3> Send Mail</h3>
+                    </div>
+                    <div class="folderOption">
+                        <span class="material-icons"> star </span>
+                        <h3>Important</h3>
+                    </div>
+                    <div class="folderOption">
+                        <span class="material-icons"> drafts </span>
+                        <h3>Drafts</h3>
+                    </div>
+                    <div class="folderOption">
+                        <span class="material-icons"> delete </span>
+                        <h3>Delete</h3>
+                    </div>
+                </div>
+<!--                Folder ends here-->
+<!--                Categories starts here-->
+                <div class="categories">
+                    <h3>CATEGORIES</h3>
+                    <div class="categoriesOptionTop">
+                        <span class="dot" id="dot_work"></span>
+                        <h3>Work</h3>
+                    </div>
+                    <div class="categoriesOption">
+                        <span class="dot" id="dot_documents"></span>
+                        <h3>Documents</h3>
+                    </div>
+                    <div class="categoriesOption">
+                        <span class="dot" id="dot_clients"></span>
+                        <h3>Clients</h3>
+                    </div>
+                    <div class="categoriesOption">
+                        <span class="dot" id="dot_social"></span>
+                        <h3>Social</h3>
+                    </div>
+                    <div class="categoriesOption">
+                        <span class="dot" id="dot_advertising"></span>
+                        <h3>Avertising</h3>
+                    </div>
+                </div>
+<!--                Categories ends here--> 
+<!--                Labels starts here-->                              
+                <div class="labels">
+                    <h3>LABELS</h3>
+                    <div class="labelsOption">
+                        <span class="material-icons"> label </span>
+                        <h3>Family</h3>
+                        <span class="material-icons"> label </span>
+                        <h3>Work</h3>
+                        <span class="material-icons"> label </span>
+                        <h3>Home</h3>
+                    </div>
+                    <div class="labelsOption">
+                        <span class="material-icons"> label </span>
+                        <h3>Children</h3>
+                        <span class="material-icons"> label </span>
+                        <h3>Holidays</h3>
+                    </div>
+                    <div class="labelsOption">
+                        <span class="material-icons"> label </span>
+                        <h3>Music</h3>
+                        <span class="material-icons"> label </span>
+                        <h3>Photography</h3>
+                    </div>
+                    <div class="labelsOption">
+                        <span class="material-icons"> label </span>
+                        <h3>Film</h3>
+                    </div>
+                </div>
+<!--                Labels ends here-->  
+            </div>
+<!--            Sidebar ends-->
+<!--            Email List Starts-->
+            <div class="emailList">
+<!--                Settings 1 starts-->
+                <div class="settings_1">
+                    <h2 id="inbox">Inbox (<span id="inboxNumber">4</span>)</h2>
+                    <form method="get" id="searchmail">
+                        <input type="text" class="text" id="searchMailBox" placeholder="Search email">
+                        <input type="submit" value="Search" class="submit">
+                    </form>
+                </div>
+<!--                Settings 1 Ends-->
+<!--                Settings 2 Starts-->
+                <div class="settings_2">
+                    <div class="right_icons">
+                        <div class="referesh">
+                            <span class="material-icons">refresh</span>
+                            <h5 id="refresh">Referesh</h5>
+                        </div>
+                        <span class="material-icons"> visibility </span>
+                        <span class="material-icons"> priority_high </span>
+                        <span class="material-icons"> delete </span>
+                    </div>
+                    <div class="left_icons">
+                        <span class="material-icons"> arrow_back </span>
+                        <span class="material-icons"> arrow_forward </span>
+                    </div>
+                </div>
+<!--                Settings 2 Ends-->
+                <div class="emaillist_List">
+<!--                    Email row starts-->
+                    <div class="emailrow">
+                        <div class="emailRowOption">
+                            <input type="checkbox">
+                        </div>
+                        <h3 class="emailRowTitle">Arata</h3>
+                        <div class="emailRowMassage">
+                            <h4>Some content <span calss="emailRowDescription">Some contentss</span></h4>
+                        </div>
+                        <p class="emailRowTime">10am</p>
+                    </div>
+<!--                    Email row ends-->
+                </div>
+            </div>
+<!--            Email List Starts-->
+        </div>
+<!--        Main body ends-->
+    </body>
+</html>

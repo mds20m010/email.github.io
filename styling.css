@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Header*/
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #D6DBDF;
+    background: #F2F4F4;
+    height: 50px;
+}
+#serachbox input[type=text] {
+    padding: 6px;
+/*
+    margin-top: 8px;
+    margin-right: 16px;
+*/
+    border: none;
+    background: #F2F4F4;
+    font-size: 17px;
+    width: 1100px;
+}
+
+.header_right {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.header_left {
+    margin-left: 20px;
+}
+
+.text {
+    color: #85929E;
+    background: #F2F4F4;
+}
+
+.mainbody {
+    display: flex;
+    padding: 10px;
+    background:#AEB6BF;
+    height: 900px;
+}
+.sidebar {
+    margin-left: 20px;
+    float: left;
+    width: 300px;
+    margin-right: 20px
+}
+
+.button {
+    width: 300px;
+    height: 50px;
+    color: #EBEDEF;
+    background: #212F3C;
+    border-radius: 5px;
+    cursor: pointer;    
+}
+
+.folderOption {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #D6DBDF;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.categoriesOption{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#dot_work {
+  height: 25px;
+  width: 25px;
+  background-color:#58D68D;
+  border-radius: 50%;
+  display: inline-block;
+}
+#dot_documents {
+  height: 25px;
+  width: 25px;
+  background-color:#EC7063;
+  border-radius: 50%;
+  display: inline-block;
+}
+#dot_clients {
+  height: 25px;
+  width: 25px;
+  background-color:#F4D03F;
+  border-radius: 50%;
+  display: inline-block;
+}
+#dot_social {
+  height: 25px;
+  width: 25px;
+  background-color:#5DADE2;
+  border-radius: 50%;
+  display: inline-block;
+}
+#dot_advertising {
+  height: 25px;
+  width: 25px;
+  background-color:#A569BD;
+  border-radius: 50%;
+  display: inline-block;
+}
+.material-icons {
+    padding: 1px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.folder {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.categories {
+    margin-bottom: 20px;
+}
+
+.categoriesOptionTop {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.labelsOption {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.emailList {
+    background: #F2F4F4;
+}
+.settings_1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+#inbox {
+    padding: 10px 650px 10px 10px;
+}
+
+#searchmail {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+#searchMailBox {
+    padding: 5px;
+    background: #F2F4F4;
+    font-size: 15px;
+    width: 200px;
+    border: 1px;
+    border-color: black;
+}
+
+
+.submit {
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #212F3C;
+    color: #EBEDEF;
+}
+
+.settings_2 {
+    display: flex;
+    align-items: center;
+}
+
+.referesh {
+    display: flex;
+    align-items: center;
+}
+.right_icons {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-right: 750px;
+}
+
+.emailRowOption {
+    display: flex;
+    align-items: center;
+}
+
+.emailrow {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border-bottom: 1px solid #E5E8E8;
+    z-index: 999;
+    margin-left: 30px;
+}
+
+.emailRowOption {
+    
+}
+
+.emailRowTitle {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.emailRowMassage {
+    display: flex;
+    align-items: center;
+    flex: 0.8;
+    font-size: 13px;
+}
+
+.emailRowMassage h4{
+    width: 400px;
+    white-space: noweap;
+    text-overflow: ellipsis;
+    padding-left: 5px;
+    padding-right: 5px;
+}
